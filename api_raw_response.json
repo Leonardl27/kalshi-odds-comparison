@@ -1,0 +1,200 @@
+{
+  "success": true,
+  "data": [
+    {
+      "sportID": "BASKETBALL",
+      "enabled": true,
+      "name": "Basketball",
+      "shortName": "Basketball",
+      "hasMeaningfulHomeAway": true,
+      "pointWord": {
+        "short": {
+          "singular": "pt",
+          "plural": "pts"
+        },
+        "long": {
+          "singular": "point",
+          "plural": "points"
+        }
+      },
+      "eventWord": {
+        "short": {
+          "singular": "game",
+          "plural": "games"
+        },
+        "long": {
+          "singular": "game",
+          "plural": "games"
+        }
+      },
+      "defaultPopularityScore": 5,
+      "clockType": "COUNTS_DOWN",
+      "basePeriods": [
+        "1q",
+        "2q",
+        "3q",
+        "4q"
+      ],
+      "extraPeriods": [
+        "ot"
+      ]
+    },
+    {
+      "sportID": "HOCKEY",
+      "enabled": true,
+      "hasMeaningfulHomeAway": true,
+      "name": "Hockey",
+      "shortName": "Hockey",
+      "pointWord": {
+        "short": {
+          "singular": "goal",
+          "plural": "goals"
+        },
+        "long": {
+          "singular": "goal",
+          "plural": "goals"
+        }
+      },
+      "eventWord": {
+        "short": {
+          "singular": "game",
+          "plural": "games"
+        },
+        "long": {
+          "singular": "game",
+          "plural": "games"
+        }
+      },
+      "defaultPopularityScore": 5,
+      "clockType": "COUNTS_DOWN",
+      "basePeriods": [
+        "1p",
+        "2p",
+        "3p"
+      ],
+      "extraPeriods": [
+        "ot",
+        "so"
+      ]
+    },
+    {
+      "sportID": "FOOTBALL",
+      "enabled": true,
+      "hasMeaningfulHomeAway": true,
+      "name": "Football",
+      "shortName": "Football",
+      "pointWord": {
+        "short": {
+          "singular": "pt",
+          "plural": "pts"
+        },
+        "long": {
+          "singular": "point",
+          "plural": "points"
+        }
+      },
+      "eventWord": {
+        "short": {
+          "singular": "game",
+          "plural": "games"
+        },
+        "long": {
+          "singular": "game",
+          "plural": "games"
+        }
+      },
+      "defaultPopularityScore": 7,
+      "clockType": "COUNTS_DOWN",
+      "basePeriods": [
+        "1q",
+        "2q",
+        "3q",
+        "4q"
+      ],
+      "extraPeriods": [
+        "ot"
+      ]
+    },
+    {
+      "sportID": "BASEBALL",
+      "enabled": true,
+      "hasMeaningfulHomeAway": true,
+      "name": "Baseball",
+      "shortName": "Baseball",
+      "pointWord": {
+        "short": {
+          "singular": "run",
+          "plural": "runs"
+        },
+        "long": {
+          "singular": "run",
+          "plural": "runs"
+        }
+      },
+      "eventWord": {
+        "short": {
+          "singular": "game",
+          "plural": "games"
+        },
+        "long": {
+          "singular": "game",
+          "plural": "games"
+        }
+      },
+      "defaultPopularityScore": 7,
+      "clockType": "NO_CLOCK",
+      "basePeriods": [
+        "1i",
+        "2i",
+        "3i",
+        "4i",
+        "5i",
+        "6i",
+        "7i",
+        "8i",
+        "9i"
+      ],
+      "extraPeriods": [
+        "ot"
+      ]
+    },
+    {
+      "sportID": "SOCCER",
+      "enabled": true,
+      "hasMeaningfulHomeAway": false,
+      "prefers3WayMoneyline": true,
+      "name": "Soccer",
+      "shortName": "Soccer",
+      "pointWord": {
+        "short": {
+          "singular": "goal",
+          "plural": "goals"
+        },
+        "long": {
+          "singular": "goal",
+          "plural": "goals"
+        }
+      },
+      "eventWord": {
+        "short": {
+          "singular": "match",
+          "plural": "matches"
+        },
+        "long": {
+          "singular": "match",
+          "plural": "matches"
+        }
+      },
+      "defaultPopularityScore": 8,
+      "clockType": "COUNTS_UP",
+      "basePeriods": [
+        "1h",
+        "2h"
+      ],
+      "extraPeriods": [
+        "ot",
+        "so"
+      ]
+    }
+  ]
+}
