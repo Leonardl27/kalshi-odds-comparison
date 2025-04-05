@@ -1,5 +1,6 @@
 """
 SportsGameOdds API client for fetching sports betting data.
+This module handles the specific structure of the SportsGameOdds API.
 """
 
 import aiohttp
@@ -46,10 +47,10 @@ class SportsGameOddsClient:
         
         # Parameters for retrieving soccer matches with odds
         params = {
-            "sport": "soccer",
-            "status": "upcoming",
-            "include_odds": "true",
-            "market_type": "spread"  # Focus on spread bets
+            "sportId": "SOCCER",  # Using sport ID
+            "status": "UPCOMING",
+            "includeMarkets": "true",
+            "marketTypes": "SPREAD"  # Focus on spread bets
         }
         
         events_url = f"{self.base_url}{events_endpoint}"
@@ -58,9 +59,15 @@ class SportsGameOddsClient:
             async with session.get(events_url, headers=headers, params=params) as response:
                 if response.status == 200:
                     data = await response.json()
-                    processed_matches = self._process_matches(data)
-                    logger.info(f"Retrieved {len(processed_matches)} soccer matches from SportsGameOdds API")
-                    return processed_matches
+                    
+                    # Check if the response has the expected structure
+                    if 'data' in data and isinstance(data['data'], list) and data.get('success', False):
+                        processed_matches = self._process_matches(data['data'])
+                        logger.info(f"Retrieved {len(processed_matches)} soccer matches from SportsGameOdds API")
+                        return processed_matches
+                    else:
+                        logger.error(f"Unexpected API response structure: {data}")
+                        return []
                 else:
                     error_text = await response.text()
                     logger.error(f"Error fetching from SportsGameOdds: {response.status} - {error_text}")
@@ -74,7 +81,7 @@ class SportsGameOddsClient:
         Process raw API response into standardized match data.
         
         Args:
-            events (list): Raw API response
+            events (list): Raw API response data list
             
         Returns:
             list: Processed match data
@@ -85,16 +92,16 @@ class SportsGameOddsClient:
             # Extract basic match information
             match = {
                 'id': event.get('id'),
-                'home_team': event.get('home_team', {}).get('name'),
-                'away_team': event.get('away_team', {}).get('name'),
-                'start_time': event.get('start_time'),
+                'home_team': event.get('homeTeam', {}).get('name'),
+                'away_team': event.get('awayTeam', {}).get('name'),
+                'start_time': event.get('startTime'),
                 'competition': event.get('competition', {}).get('name'),
                 'markets': []
             }
             
             # Extract markets/odds - focus on spread markets
             for market in event.get('markets', []):
-                if market.get('market_type') == 'spread':
+                if market.get('marketType') == 'SPREAD':
                     spread_market = {
                         'type': 'spread'
                     }

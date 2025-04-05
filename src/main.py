@@ -11,6 +11,7 @@ import os
 from datetime import datetime
 
 from src.data_collection.sportsbook import SportsBookClient
+from src.data_collection.sportsgameodds import SportsGameOddsClient
 from src.data_collection.kalshi import KalshiClient
 from src.analysis.comparator import OddsComparator
 from src.utils.logger import setup_logger
@@ -41,13 +42,22 @@ async def collect_data(config):
     
     sportsbook_clients = []
     for sb_config in config['apis']['sportsbooks']:
-        sportsbook_clients.append(
-            SportsBookClient(
-                name=sb_config['name'],
-                base_url=sb_config['base_url'],
-                api_key=sb_config['api_key']
+        # Create the appropriate client based on the sportsbook name
+        if sb_config['name'].lower() == 'sportsgameodds':
+            sportsbook_clients.append(
+                SportsGameOddsClient(
+                    base_url=sb_config['base_url'],
+                    api_key=sb_config['api_key']
+                )
             )
-        )
+        else:
+            sportsbook_clients.append(
+                SportsBookClient(
+                    name=sb_config['name'],
+                    base_url=sb_config['base_url'],
+                    api_key=sb_config['api_key']
+                )
+            )
     
     # Authenticate with Kalshi
     await kalshi_client.authenticate()
@@ -55,13 +65,19 @@ async def collect_data(config):
     # Get soccer matches from sportsbooks
     sportsbook_data = {}
     for client in sportsbook_clients:
-        sportsbook_data[client.name] = await client.get_soccer_matches()
+        client_name = getattr(client, 'name', client.__class__.__name__)
+        sportsbook_data[client_name] = await client.get_soccer_matches()
     
     # Get Kalshi markets
     kalshi_markets = await kalshi_client.get_soccer_markets()
     
     logger.info(f"Data collection complete. Found {len(kalshi_markets)} Kalshi markets and " 
                 f"{sum(len(matches) for matches in sportsbook_data.values())} sportsbook matches.")
+    
+    # Close all client sessions
+    await kalshi_client.close()
+    for client in sportsbook_clients:
+        await client.close()
     
     return {
         'sportsbook_data': sportsbook_data,
