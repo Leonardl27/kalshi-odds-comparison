@@ -1,0 +1,3407 @@
+[
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-sp-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-sp-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-sp-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-sp-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-sp-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-sp-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ou-over",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ou-under",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ou-over",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ou-under",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-sp-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-sp-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-sp-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-sp-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-sp-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-sp-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-sp-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-sp-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-sp-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-sp-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ou-over",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ou-under",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ou-over",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ou-under",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-sp-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-sp-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-sp-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-sp-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-sp-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-sp-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-sp-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-sp-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ou-over",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ou-under",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ou-over",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ou-under",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-sp-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-sp-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-yes",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "bothTeamsScored-all-game-yn-no",
+        "name": "Bothteamsscored all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-over",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ou-under",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-over",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "cornerKicks-all-game-ou-under",
+        "name": "Cornerkicks all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-draw",
+        "name": "Points all 2h",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-2h-ml3way-away+draw",
+        "name": "Points away 2h",
+        "odds": null
+      },
+      {
+        "type": "points-home-2h-ml3way-home+draw",
+        "name": "Points home 2h",
+        "odds": null
+      },
+      {
+        "type": "points-all-2h-ml3way-not_draw",
+        "name": "Points all 2h",
+        "odds": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "homeTeam": "Unknown",
+    "awayTeam": "Unknown",
+    "startTime": null,
+    "league": "MLS",
+    "markets": [
+      {
+        "type": "points-home-reg-ml3way-home",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-sp-home",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-sp-away",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-over",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-all-game-ou-under",
+        "name": "Points all game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-over",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-home-game-ou-under",
+        "name": "Points home game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-over",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-away-game-ou-under",
+        "name": "Points away game",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-draw",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-sp-home",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-sp-away",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-over",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ou-under",
+        "name": "Points all 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-over",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ou-under",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-over",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ou-under",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-away-reg-ml3way-away+draw",
+        "name": "Points away reg",
+        "odds": null
+      },
+      {
+        "type": "points-home-reg-ml3way-home+draw",
+        "name": "Points home reg",
+        "odds": null
+      },
+      {
+        "type": "points-all-reg-ml3way-not_draw",
+        "name": "Points all reg",
+        "odds": null
+      },
+      {
+        "type": "points-away-1h-ml3way-away+draw",
+        "name": "Points away 1h",
+        "odds": null
+      },
+      {
+        "type": "points-home-1h-ml3way-home+draw",
+        "name": "Points home 1h",
+        "odds": null
+      },
+      {
+        "type": "points-all-1h-ml3way-not_draw",
+        "name": "Points all 1h",
+        "odds": null
+      }
+    ]
+  }
+]

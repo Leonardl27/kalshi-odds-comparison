@@ -1,0 +1,409 @@
+Guide to sports game odds api. I am just copying and pasting the guides from the website here.
+Getting Data in Batches
+This following information only applies to the /teams, /events, and /odds endpoints.
+
+Most endpoints will always return all results which match your query. However, since the /teams, /events, and /odds endpoints can potentially return hundreds or even thousands of results, the resulting objects are paginated/limited and must be fetched in batches.
+
+The number of items by each request to these endpoints is determined by the limit parameter. This parameter currently has a default value of 10 but can be overridden up to a max value of 100.
+
+In some cases you may want to fetch all of the results from these endpoints. To do this, you can feed the nextCursor in the resonse as the cursor parameter in your next request to pick up where you left off. When the response does not contain a nextCursor property, you have reached the end of the results.
+
+Let’s take the following example, where we want to grab all finalized NBA events:
+
+
+Javascript
+
+Python
+
+Ruby
+
+PHP
+
+java
+
+let nextCursor = null;
+let eventData = [];
+do {
+  try {
+    const response = await axios.get('/v2/events', {
+      params: {
+        leagueID: 'NBA',
+        startsAfter: '2024-04-01',
+        startsBefore: '2024-04-08',
+        limit: 50,
+        cursor: nextCursor
+      }
+    });
+
+    // response.data will contain the 30 events for this request
+    const data = response.data;
+
+    eventData = eventData.concat(data.data);
+
+    nextCursor = data?.nextCursor;
+
+  } catch (error) {
+    console.error('Error fetching events:', error);
+    break;
+  }
+} while (nextCursor);
+
+// Once you have this data, you could feed it to your betting model, display it in your sportsbook application, etc.
+eventData.forEach((event) => {
+  const odds = event.odds;
+  Object.values(odds).forEach((oddObject) => {
+    console.log(`Odd ID: ${oddObject.oddID}`);
+    console.log(`Odd Value: ${oddObject.closeOdds}`);
+  });
+});
+Handling Odds
+Overview
+The Sports Game Odds API comes complete with odds and result data for every event.
+
+This guide will show you how you can easily fetch and parse the odds for a specific event or group of events!
+
+Example
+In our previous example you saw how you would fetch upcoming NBA events from the API using our cursor pattern, let’s take that a step further!
+
+Now, assuming the NBA week has passed, we will fetch all finalized NBA events from that week, then parse the odds results for each event, so we can grade them.
+
+
+let nextCursor = null;
+let eventData = [];
+do {
+  try {
+    const response = await axios.get('/v2/events', {
+      params: {
+        leagueID: 'NBA',
+        startsAfter: '2024-04-01',
+        startsBefore: '2024-04-08',
+        finalized: true,
+        cursor: nextCursor
+      }
+    });
+
+    const data = response.data;
+
+    eventData = eventData.concat(data.data);
+
+    nextCursor = data?.nextCursor;
+
+  } catch (error) {
+    console.error('Error fetching events:', error);
+    break;
+  }
+} while (nextCursor);
+
+// Now that we have the events, let's parse the odd results!
+// Based on the bet type, compare score to the odds and grade the odds, for this example assume the odds are over/under
+eventData.forEach((event) => {
+  const odds = event.odds;
+  Object.values(odds).forEach((oddObject) => {
+    const oddID = oddObject.oddID;
+    const score = parseFloat(oddObject.score);
+
+    const closeOverUnder = parseFloat(oddObject.closeOverUnder);
+    if (score > closeOverUnder)
+        console.log(`Odd ID: ${oddID} - Over Wins`);
+    else if (score === closeOverUnder)
+        console.log(`Odd ID: ${oddID} - Push`);
+    else
+        console.log(`Odd ID: ${oddID} - Under Wins`);
+  });
+});
+Fetching Teams
+Overview
+The Sports Game Odds API provides the ability to fetch a list of teams or a specific team’s details.
+
+You can use a sportID or leagueID to get a list of associated teams and their details. You can also pass a teamID to just get a single team’s details. Note that when specifying a teamID, it will still return as an array, just with a single object in it.
+
+Fetching by Team
+Let’s take the following example, where we want to fetch the details of a specific NBA team:
+
+
+Javascript
+
+Python
+
+Ruby
+
+PHP
+
+Java
+
+await axios.get("/v2/teams", {
+  params: {
+    teamID: "LOS_ANGELES_LAKERS_NBA",
+  },
+});
+This will return a response that looks something like this:
+
+
+{
+  "success": true,
+  "data": [
+    {
+      "sportID": "BASKETBALL",
+      "names": {
+        "short": "LAL",
+        "medium": "Lakers",
+        "long": "Los Angeles Lakers"
+      },
+      "leagueID": "NBA",
+      "teamID": "LOS_ANGELES_LAKERS_NBA"
+    }
+  ]
+}
+Fetching by league
+If you wanted to fetch a list of all the teams in the NBA, your request would look something like this:
+
+
+Javascript
+
+Python
+
+Ruby
+
+PHP
+
+Java
+
+await axios.get("/v2/teams", {
+  params: {
+    leagueID: "NBA",
+  },
+});
+This will return a response that looks something like this:
+
+
+{
+  "nextCursor": "MILWAUKEE_BUCKS_NBA",
+  "success": true,
+  "data": [
+    {
+      "sportID": "BASKETBALL",
+      "names": {
+        "short": "LAL",
+        "medium": "Lakers",
+        "long": "Los Angeles Lakers"
+      },
+      "leagueID": "NBA",
+      "teamID": "LAKERS_NBA",
+      "colors": {
+        "secondary": "#FFFFFF",
+        "primaryContrast": "#000000",
+        "secondaryContrast": "#552583",
+        "primary": "#552583"
+      }
+    },
+    {
+      "sportID": "BASKETBALL",
+      "names": {
+        "short": "BOS",
+        "medium": "Celtics",
+        "long": "Boston Celtics"
+      },
+      "leagueID": "NBA",
+      "teamID": "CELTICS_NBA",
+      "colors": {
+        "secondary": "#FFFFFF",
+        "primaryContrast": "#000000",
+        "secondaryContrast": "#007A33",
+        "primary": "#007A33"
+      }
+    },
+    // ...
+    // Up to 30 objects may be returned in this object. If there are more available
+    // then you'll see a nextCursor property you can use to fetch the next
+    // page of related objects.
+  ]
+}
+Fetching by sport
+If you wanted to fetch a list of all basketball teams across all of our supported leagues, your request would look something like this:
+
+
+Javascript
+
+Python
+
+Ruby
+
+PHP
+
+Java
+
+await axios.get("/v2/teams", {
+  params: {
+    sportID: "BASKETBALL",
+  },
+});
+This will return a response that looks something like this:
+
+
+{
+  "nextCursor": "BELMONT_NCAAB",
+  "success": true,
+  "data": [
+    {
+      "sportID": "BASKETBALL",
+      "names": {
+        "short": "LAL",
+        "medium": "Lakers",
+        "long": "Los Angeles Lakers"
+      },
+      "leagueID": "NBA",
+      "teamID": "LAKERS_NBA"
+    },
+    {
+      "sportID": "BASKETBALL",
+      "names": {
+        "short": "BOS",
+        "medium": "Celtics",
+        "long": "Boston Celtics"
+      },
+      "leagueID": "NBA",
+      "teamID": "CELTICS_NBA"
+    },
+    {
+      "sportID": "BASKETBALL",
+      "names": {
+        "short": "GSW",
+        "medium": "Warriors",
+        "long": "Golden State Warriors"
+      },
+      "leagueID": "NBA",
+      "teamID": "WARRIORS_NBA"
+    },
+    // ...
+    // Up to 30 objects may be returned in this object. If there are more available
+    // then you'll see a nextCursor property you can use to fetch the next
+    // page of related objects.
+  ]
+}
+
+mproving Response Speed
+Note
+
+We’re in the process of adding additional request params which are designed to allow you to more efficiently fetch only the data you need. We also plan on releasing a GraphQL API in the future. Check back here for updates.
+
+We’re committed to finding balance between making as much data available to you as possible while also ensuring that you can fetch that data quickly and efficiently. This guide is designed to help you understand how to optimize your requests to reduce response times/latency.
+
+Use the oddIDs parameter
+The most common cause of high response times is fetching a large number of odds at once. This can be especially problematic when fetching odds for a large number of Events.
+To reduce this, you can use the oddIDs parameter to fetch only the odds you need.
+The oddIDs parameter can be included in the /events
+It accepts a comma-separated list of oddID values (See the Markets guide for a list of supported oddID values)
+You can also set the parameter includeOpposingOddIDs to true to also include the opposing side of all oddIDs provided
+You can also replace the playerID portion of any oddID with PLAYER_ID to fetch that oddID across all players
+Example
+Consider the oddID batting_strikeouts-CODY_BELLINGER_1_MLB-game-ou-under which represents the under odds for Cody Bellinger’s strikeouts in a game
+If you wanted to fetch all player strikeouts odds for this game you would set the following params
+oddIDs=batting_strikeouts-PLAYER_ID-game-ou-under
+includeOpposingOddIDs=true
+That would give you both over and under odds for all player strikeouts odds markets for all Events/Odds returned
+
+import requests
+from datetime import datetime, timedelta
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+
+# Function to fetch NFL odds data
+def fetch_nfl_events(startsAfter, startsBefore):
+    url = f'https://sportsgameodds.com/api/v1/events?leagueID=NFL&startsAfter={startsAfter}&startsBefore={startsBefore}'
+    headers = {'x-api-key': <YOUR_API_KEY>}
+
+    all_events = []
+    next_cursor = None
+
+    while True:
+        try:
+            response = requests.get(url, params={'cursor': next_cursor}, headers = headers)
+            json = response.json()
+            all_events.extend(json['data']])
+            next_cursor = data.get('nextCursor')
+            if not next_cursor:
+                break
+        except Exception as e:
+            print(f'Error fetching NFL odds: {e}')
+            break
+
+    return all_events
+
+# Function to preprocess data and extract features
+def preprocess_data(events):
+    features = []
+    labels = []
+    for event in events:
+        # Extract relevant features (example: home team odds, away team odds)
+        home_odds = event['odds']['points-home-game-ml-home']['odds']
+        away_odds = event['odds']['points-away-game-ml-away']['odds']
+        features.append([home_odds, away_odds])
+
+        # Extract label (example: 1 if home team won, 0 otherwise)
+        home_score = event['results']['game']['home']['points']
+        away_score = event['results']['game']['away']['points']
+        labels.append(1 if home_score > away_score else 0)
+
+    return features, labels
+
+# Function to train machine learning model
+def train_model(features, labels):
+    # Split data into training and testing sets
+    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
+
+    # Train a RandomForestClassifier model (you can replace this with any other model)
+    model = RandomForestClassifier(n_estimators=100, random_state=42)
+    model.fit(X_train, y_train)
+
+    # Evaluate model accuracy
+    predictions = model.predict(X_test)
+    accuracy = accuracy_score(y_test, predictions)
+    print(f'Model accuracy: {accuracy}')
+
+    return model
+
+# Function to make predictions using the trained model
+def make_predictions(model, events):
+    bets = []
+    for event in events:
+        home_odds = event['odds']['points-home-game-ml-home']['odds']
+        away_odds = event['odds']['points-away-game-ml-away']['odds']
+
+        prediction = model.predict([[home_odds, away_odds]])
+        if prediction == 1:
+            bets.append(f'Place a bet on {event["home_team"]} to win against {event["away_team"]}')
+        else:
+            bets.append(f'Place a bet on {event["away_team"]} to win against {event["home_team"]}')
+    return bets
+
+def main():
+    today = datetime.today()
+    next_week = today + timedelta(days=7)
+    last_week = today - timedelta(days=7)
+
+    # Fetch this weeks NFL odds data
+    next_week_nfl_events = fetch_nfl_events(today, next_week)
+
+    # Fetch last weeks NFL odds data and results
+    last_week_nfl_events = fetch_nfl_events(last_week, today)
+
+    if last_week_nfl_events:
+        # Preprocess data
+        features, labels = preprocess_data(last_week_nfl_events)
+
+        # Train machine learning model
+        model = train_model(features, labels)
+    else:
+        print('No previous NFL odds available.')
+
+    if next_week_nfl_events:
+        # Make predictions
+        bets = make_predictions(model, next_week_nfl_events)
+        for bet in bets:
+            print(bet)
+    else:
+        print('No NFL odds available for the upcoming week.')
+
+if __name__ == "__main__":
+    main()
